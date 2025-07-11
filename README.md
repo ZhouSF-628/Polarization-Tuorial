@@ -79,7 +79,6 @@ DoFP 偏振相机（Division of Focal Plane）：
 
 - 用 Lucid 偏振相机拍出了一张 raw 格式的偏振图像，请编写代码从中提取出 0°，45°，90°，135° 的偏振图像（这张图片的像素是按照 Polarization Bayer Pattern 排布的）
 
-
 - 处理好上一步的 4 张 RGB 图像后，请用代码计算 stokes 参数（S0，S1，S2）和偏振度（dop），偏振角（aop）并可视化（把计算公式写在下面再放图）
 
 - 根据公式 $$I(\phi_{pol})=I_{un}+I_{un}\rho\cos(2(\phi_{pol}-\theta))$$ 说明为什么 aop 的求解会有 $$\pi$$-ambiguity，如果想要计算通过某种方式生成的一张 aop 与真实（gt）aop 之间的平均角度误差（Mean Angular Error），该如何计算
@@ -87,5 +86,7 @@ DoFP 偏振相机（Division of Focal Plane）：
 - 如果图像太暗了看不清，想要计算 stokes 和 aop 等，能否对图像先做 gamma 变换（或其他图像增强操作）再计算，为什么？
 
 2. Mitsuba 渲染工具的使用
+
 首先参考官方教程完成 mitsuba 安装：[Mitsuba3 官方安装教程](https://mitsuba.readthedocs.io/en/latest/index.html#installation)
-参考下面的教程完成教程内的渲染任务： [Mitsuba新手教程](https://z1fow0wh5tr.feishu.cn/wiki/LElAw9aJgiVeGtkBxKwcNL3snxf)
+
+然后参考下面的教程完成教程内的渲染任务： [Mitsuba新手教程](https://z1fow0wh5tr.feishu.cn/wiki/LElAw9aJgiVeGtkBxKwcNL3snxf)

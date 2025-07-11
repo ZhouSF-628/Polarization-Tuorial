@@ -1,3 +1,5 @@
+![](figures/polarization light.png)
+
 # 基本概念
 
 ## 偏振
@@ -39,6 +41,10 @@ $$S_2$$：描述 45° 的对角线性偏振（diagonal linear polarization）。
 
 $$S_3$$：描述左旋和右旋的圆偏振。$$S_3=1$$ 时表示完全的右旋偏振光（left polarized circularly light），$$S_3=-1$$ 时表示完全的左旋偏振光（right polarized circularly light）。
 
+![](figures/stokes1.png)
+
+![](figures/stokes2.png)
+
 上面几个参数要满足 $$S_0\geq\sqrt{S_1^2+S_2^2+S_3^2}$$
 
 有些地方也会把 Stokes 矢量记为 $$\mathbf{S}=[I,Q,U,V]^T$$
@@ -76,6 +82,8 @@ DoFP 偏振相机（Division of Focal Plane）：
 为了解决传统方式下需要多次拍摄的问题（导致对动态场景不友好），现代偏振成像系统通常采用 DoFP 结构，即在每个像素上集成不同取向的微偏振片，从而实现单次曝光同时捕获多个偏振角度图像。
 
 其中一种典型设计为 Color Polarization Filter Array（CPFA），它融合了偏振片与彩色滤波器阵列（类似于 Bayer CFA），通过对该偏振马赛克图进行去马赛克重建，可以恢复每个像素在不同偏振角度下的强度值，并进一步计算 Stokes 向量及偏振参数（DoLP、AoP）。
+
+![](figures/cpfa.png)
 
 # 思考并完成以下练习
 

@@ -1,4 +1,4 @@
-![](figures/polarization light.png)
+![](figures/polarization.png)
 
 # 基本概念
 

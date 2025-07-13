@@ -91,11 +91,11 @@ DoFP 偏振相机（Division of Focal Plane）：
 
 - 了解 RGB 相机和 snapshot 偏振相机的成像过程，说明什么是 RGB Bayer pattern 以及 Snapshot 偏振相机的 Bayer pattern，为什么 snapshot 偏振相机可以一次性拍摄 4 个不同偏振角度的图像？
 
-- 用 Lucid 偏振相机拍出了一张 raw 格式的偏振图像，请编写代码从中提取出 0°，45°，90°，135° 的偏振图像（这张图片的像素是按照 Polarization Bayer Pattern 排布的）
+- 用 Lucid 偏振相机拍出了一张 raw 格式的偏振图像 `figures/raw.png`，请在 `utils\utils.py` 中补全代码 `generate_CPFA_raw_image()` 实现从中提取出 0°，45°，90°，135° 的偏振图像。
 
-- 处理好上一步的 4 张 RGB 图像后，请用代码计算 stokes 参数（S0，S1，S2）和偏振度（dop），偏振角（aop）并可视化（把计算公式写在下面再放图）
+- 处理好上一步的 4 张 RGB 图像后，请补全代码 `utils\utils.py` 中的函数 `compute_stokes_from_Ii()` 计算 stokes 参数（S0，S1，S2）和偏振度（dop），偏振角（aop）并可视化（把计算公式写在下面再放图）
 
-- 根据公式 $$I(\phi_{pol})=I_{un}+I_{un}\rho\cos(2(\phi_{pol}-\theta))$$ 说明为什么 aop 的求解会有 $$\pi$$-ambiguity，如果想要计算通过某种方式生成的一张 aop 与真实（gt）aop 之间的平均角度误差（Mean Angular Error），该如何计算
+- 根据公式 $$I(\phi_{pol})=I_{un}+I_{un}\rho\cos(2(\phi_{pol}-\theta))$$ 说明为什么 aop 的求解会有 $$\pi$$-ambiguity，如果想要计算通过某种方式生成的一张 aop 与真实（gt）aop 之间的平均角度误差（Mean Angular Error），该如何计算？补全函数 `AoP_MAE()` 并计算通过前面的处理方式得到的 aop 与真实 aop 之间的误差（真实的 aop 用 `figures/RGB_0-135.png` 计算得到）
 
 - 如果图像太暗了看不清，想要计算 stokes 和 aop 等，能否对图像先做 gamma 变换（或其他图像增强操作）再计算，为什么？
 

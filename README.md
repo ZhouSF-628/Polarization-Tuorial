@@ -51,6 +51,8 @@ $$S_3$$：描述左旋和右旋的圆偏振。 $$S_3=1$$ 时表示完全的右�
 
 由于圆偏振的情况在现实生活中很少见，所以大部分文献只研究线性偏振情况，忽略 $$S_3$$，即 $$\mathbf{S}=[S_0,S_1,S_2]^T$$
 
+关于 Muller 矩阵的更多内容请参考 [Polarization](https://mitsuba.readthedocs.io/en/latest/src/key_topics/polarization.html)
+
 ## 偏振度和偏振角
 
 1. 线性偏振度（Degree of Linear Polarization, DoLP），是衡量光线线性偏振程度的指标，专门量化光的线性偏振成分，以此来忽略圆偏振的影响，线性偏振度的值可以从 0（完全非偏振光）到 1（完全偏振光）变化。

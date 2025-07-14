@@ -35,11 +35,11 @@ $$\mathbf{S}=[S_0,S_1,S_2,S_3]$$
 
 $$S_0$$：描述光的强度（intensity），不含任何偏振信息。（在物理渲染时用来表示辐射强度）
 
-$$S_1$$：描述水平和垂直的线性偏振。$$S_1=1$$ 时表示水平偏振（horizontally linear polarization）或 0° 线性偏振，$$S_1=-1$$ 时表示垂直偏振（vertically linear polarization）或 90° 线性偏振。
+$$S_1$$：描述水平和垂直的线性偏振。 $$S_1=1$$ 时表示水平偏振（horizontally linear polarization）或 0° 线性偏振， $$S_1=-1$$ 时表示垂直偏振（vertically linear polarization）或 90° 线性偏振。
 
-$$S_2$$：描述 45° 的对角线性偏振（diagonal linear polarization）。$$S_2=1$$ 时表示 +45° 的线性偏振，$$S_2=-1$$ 时表示 -45° 的线性偏振（或 135° 线性偏振）。
+$$S_2$$：描述 45° 的对角线性偏振（diagonal linear polarization）。 $$S_2=1$$ 时表示 +45° 的线性偏振， $$S_2=-1$$ 时表示 -45° 的线性偏振（或 135° 线性偏振）。
 
-$$S_3$$：描述左旋和右旋的圆偏振。$$S_3=1$$ 时表示完全的右旋偏振光（left polarized circularly light），$$S_3=-1$$ 时表示完全的左旋偏振光（right polarized circularly light）。
+$$S_3$$：描述左旋和右旋的圆偏振。 $$S_3=1$$ 时表示完全的右旋偏振光（left polarized circularly light）， $$S_3=-1$$ 时表示完全的左旋偏振光（right polarized circularly light）。
 
 ![](figures/stokes1.png)
 

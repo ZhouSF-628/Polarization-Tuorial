@@ -57,7 +57,7 @@ $$S_3$$：描述左旋和右旋的圆偏振。 $$S_3=1$$ 时表示完全的右�
 
  $$DoLP=\frac{\sqrt{S_1^2+S_2^2}}{S_0}$$
  
-2. 偏振角（Angle of Polarization, AoP），定义了线性偏振的方向相对于某个基准方向的偏转角度，范围是 $$[-\frac{\pi}{2},\frac{\pi}{2}]$$ 或 $$[0,\pi]$$。
+2. 偏振角（Angle of Polarization, AoP），定义了线性偏振的方向相对于某个基准方向的偏转角度，范围是 $$[-\frac{\pi}{2},\frac{\pi}{2}]$$。
 
 $$AoP=\frac12\arctan 2(S_2,S_1)$$
 

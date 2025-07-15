@@ -106,3 +106,5 @@ DoFP 偏振相机（Division of Focal Plane）：
 - 首先参考官方教程完成 mitsuba 安装：[Mitsuba3 官方安装教程](https://mitsuba.readthedocs.io/en/latest/index.html#installation)
 
 - 然后参考下面的教程完成教程内的渲染任务： [Mitsuba新手教程](https://z1fow0wh5tr.feishu.cn/wiki/LElAw9aJgiVeGtkBxKwcNL3snxf)
+
+> 本文参考资料来自 [Polarization](https://mitsuba.readthedocs.io/en/latest/src/key_topics/polarization.html)
